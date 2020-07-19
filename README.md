@@ -1,5 +1,6 @@
 Tutorial
 --------
+https://serverless-graphql.jrivera-31.vercel.app/
 
 - [Next.js](https://hasura.io/learn/graphql/nextjs-fullstack-serverless/introduction)
 
