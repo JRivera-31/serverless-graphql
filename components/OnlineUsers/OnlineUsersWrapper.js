@@ -34,16 +34,6 @@ const OnlineUsersWrapper = () => {
     })
   }
 
-  const GET_ONLINE_USERS = gql`
-  subscription getOnlineUsers {
-    online_users(order_by: {user: {name: asc}}) {
-      id
-      user {
-        name
-      }
-    }
-  }`
-
   const { loading, error, data } = useSubscription(
     gql`
       subscription getOnlineUsers {
